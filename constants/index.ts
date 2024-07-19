@@ -1,19 +1,20 @@
+
 export const headerLinks = [
     {
-        label: 'Home',
-        route: '/',
+      label: 'Home',
+      route: '/',
     },
     {
-        label: 'Create Event',
-        route: '/events/create',
+      label: 'Create Event',
+      route: '/events/create',
     },
     {
-        label: 'My Profile',
-        route: '/profile',
+      label: 'My Profile',
+      route: '/profile',
     },
-]
-
-export const eventDefaultValues = {
+  ]
+  
+  export const eventDefaultValues = {
     title: '',
     description: '',
     location: '',
@@ -24,4 +25,5 @@ export const eventDefaultValues = {
     price: '',
     isFree: false,
     url: '',
-}
+  }
+  
